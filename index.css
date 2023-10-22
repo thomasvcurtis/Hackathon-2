@@ -1,0 +1,37 @@
+h1 {
+    color: black;
+    font-family: 'Impact', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 550;
+    font-stretch: extra-expanded;
+    font-size: 500%;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.foreground {
+    text-align: center;
+    color: black;
+}
+
+.text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: larger;
+    font-weight: bold;
+}
+
+.foreground img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+body {
+    background-color: rgb(150, 247, 242);
+}

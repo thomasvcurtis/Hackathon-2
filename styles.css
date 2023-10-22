@@ -1,0 +1,32 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  height: 50px;
+  padding: 10px;
+}
+
+.sidebar {
+  background-color: #444;
+  color: white;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  overflow-y: auto;
+}
+
+#map {
+  position: absolute;
+  top: 50px;
+  left: 250px;
+  right: 0;
+  bottom: 0;
+}

@@ -28,36 +28,39 @@
     ></script>
   </head>
   <body>
-    <div class="navbar">
-      <ul class="nav">
+  
+      <ul class="navbar justify-content-center nav-fill">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">Map</a>
+          <a class="nav-link active" aria-current="page" href="#">Map</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="#">File Upload</a>
         </li>
       </ul>
-    </div>
 
-    <div class="sidebar">
-      <ul class="nav flex-column">
-        <li class="nav-item">
-          <a class="nav-link active">Plant Capability</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active">Country</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active">Logistics</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active">Plant Availability</a>
-        </li>
-      </ul>
-    </div>
+    
+
+    <ul class="nav nav-pills flex-sm-column">
+      <h2>Filters</h2>
+      <div class="dropdown">
+        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Logistics
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Road</a></li>
+          <li><a class="dropdown-item" href="#">Boat</a></li>
+          <li><a class="dropdown-item" href="#">Plane</a></li>
+          <li><a class="dropdown-item" href="#">Train</a></li>
+        </ul>
+      </div>
+    </ul>
+
+    <button type="button" class="btn btn-primary btn-lg">Plant Availability.</button>
+
+    
 
     <div id="map"></div>
     <script>

@@ -1,9 +1,9 @@
-from flask import Flask
+from flask import Flask, render_template, url_for
 import pandas as pd
 import numpy as np
 from sklearn import preprocessing
 import json
-
+import constants
 
 app = Flask(__name__)
 
@@ -13,7 +13,7 @@ FILE_NAME = "../HackDearborn_Yazaki_MfgInfo_SECRET.xlsx"
 def display_map():
     sheet = ingest_data()
     sheet = preprocess_data(sheet)
-    return sheet.to_html()
+    return render_template('map.html', css=url_for('static', filename='styles.css'), geojson=url_for('static', filename='data.geojson'))
 
 def ingest_data():
     data_sheet = pd.read_excel(FILE_NAME)
@@ -64,11 +64,6 @@ def convert_abbreviations(array):
 
 def convert_to_geojson():
     geojson = {  "type": "FeatureCollection",
-                "crs" : {
-                "type" : "name",
-                 "properties" : {
-                "name" : "urn:ogc:def:crs:OGC:1.3:CRS84"
-            }},
             "features": []
     }
     with pd.ExcelFile("output.xlsx") as xls:
@@ -89,16 +84,14 @@ def convert_to_geojson():
                 row_dict["properties"] = row.to_dict()
                 temp = {
                     "type" : "Point",
-                    "coordinates" : [
-
-                    ]
+                    "coordinates" : constants.COORD_DICT[row_dict["properties"]["StateProvince"]]
                 }
                 row_dict["geometry"] = temp
                 geojson["features"].append(row_dict)
 
     json_data = json.dumps(geojson, indent=4)
 
-    output_filename = 'data.geojson'
+    output_filename = 'static/data.geojson'
     with open(output_filename, 'w') as output_file:
         output_file.write('{}'.format(json_data))
     

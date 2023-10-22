@@ -12,6 +12,17 @@ html {
   padding: 10px;
 }
 
+.sidebar {
+  background-color: #444;
+  color: white;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  overflow-y: auto;
+}
+
 #map {
   position: absolute;
   top: 50px;

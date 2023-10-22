@@ -1,4 +1,5 @@
 // Create map
+
 function CreateMap() {
   mapboxgl.accessToken =
   "pk.eyJ1IjoiY3JsaWxseSIsImEiOiJjbGY0YWZ4N2gwcGdwM3FxbWt1dGcxMXh5In0.OrBtfHlPZ09hQHmne6ZFJA";
@@ -10,7 +11,7 @@ function CreateMap() {
     zoom: 9, // starting zoom
     projection: "mercator",
   });
+  map.addControl(new mapboxgl.NavigationControl());
+  const buttons = document.getElementsByTagName("button");
+  
 }
-// Add controls to map
-map.addControl(new mapboxgl.NavigationControl());
-

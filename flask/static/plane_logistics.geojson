@@ -1,0 +1,695 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 2",
+                "StateProvince": "MX-CHH",
+                "PreferredLogistics": "plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 3",
+                "StateProvince": "MX-NLE",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.75,
+                    25.58333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 4",
+                "StateProvince": "MX-DUR",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.83333,
+                    24.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 5",
+                "StateProvince": "MX-CHP",
+                "PreferredLogistics": "plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 6",
+                "StateProvince": "MX-CHH",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 8",
+                "StateProvince": "MX-DUR",
+                "PreferredLogistics": "plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.83333,
+                    24.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 9",
+                "StateProvince": "MX-NLE",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.75,
+                    25.58333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 11",
+                "StateProvince": "MX-SLP",
+                "PreferredLogistics": "plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -100.5,
+                    22.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 12",
+                "StateProvince": "MX-CHP",
+                "PreferredLogistics": "plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 13",
+                "StateProvince": "MX",
+                "PreferredLogistics": "plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -102.0,
+                    23.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 14",
+                "StateProvince": "MX-CHP",
+                "PreferredLogistics": "plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 15",
+                "StateProvince": "MX-CHH",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 17",
+                "StateProvince": "MX-DUR",
+                "PreferredLogistics": "plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.83333,
+                    24.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 18",
+                "StateProvince": "MX-CHH",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 23",
+                "StateProvince": "MX-CHH",
+                "PreferredLogistics": "plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 26",
+                "StateProvince": "MX-CHP",
+                "PreferredLogistics": "plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 27",
+                "StateProvince": "MX-JAL",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -103.66667,
+                    20.33333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 28",
+                "StateProvince": "MX-CHH",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 29",
+                "StateProvince": "US-MI",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.0,
+                    44.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 30",
+                "StateProvince": "MX-CHH",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 31",
+                "StateProvince": "MX-CHP",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 32",
+                "StateProvince": "MX-SON",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.5,
+                    29.66667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 33",
+                "StateProvince": "MX-SLP",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -100.5,
+                    22.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 34",
+                "StateProvince": "MX-DUR",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.83333,
+                    24.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 35",
+                "StateProvince": "MX-DUR",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.83333,
+                    24.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 36",
+                "StateProvince": "MX-COA",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -102.0,
+                    27.33333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 39",
+                "StateProvince": "MX-CHH",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 41",
+                "StateProvince": "MX-CHH",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 42",
+                "StateProvince": "MX-SLP",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -100.5,
+                    22.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 44",
+                "StateProvince": "MX-SON",
+                "PreferredLogistics": "plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.5,
+                    29.66667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 45",
+                "StateProvince": "MX-COL",
+                "PreferredLogistics": "plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -103.5,
+                    19.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 46",
+                "StateProvince": "MX-NLE",
+                "PreferredLogistics": "plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.75,
+                    25.58333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 47",
+                "StateProvince": "MX-DUR",
+                "PreferredLogistics": "plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.83333,
+                    24.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 48",
+                "StateProvince": "MX-CHH",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 50",
+                "StateProvince": "MX-DUR",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.83333,
+                    24.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 51",
+                "StateProvince": "NI",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.0,
+                    12.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 52",
+                "StateProvince": "MX-SON",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.5,
+                    29.66667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 53",
+                "StateProvince": "MX-SLP",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -100.5,
+                    22.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 54",
+                "StateProvince": "MX-CHP",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 57",
+                "StateProvince": "MX-CHH",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 62",
+                "StateProvince": "MX-DUR",
+                "PreferredLogistics": "plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.83333,
+                    24.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 63",
+                "StateProvince": "MX-CHH",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 65",
+                "StateProvince": "MX-DUR",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.83333,
+                    24.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 66",
+                "StateProvince": "US-TN",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.33333,
+                    35.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 68",
+                "StateProvince": "MX-CHP",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 69",
+                "StateProvince": "MX-CHH",
+                "PreferredLogistics": "road/plane"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.5,
+                    16.5
+                ]
+            }
+        }
+    ]
+}

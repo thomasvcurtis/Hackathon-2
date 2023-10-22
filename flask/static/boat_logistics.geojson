@@ -1,0 +1,95 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 16",
+                "StateProvince": "NI",
+                "PreferredLogistics": "boat"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.0,
+                    12.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 20",
+                "StateProvince": "NI",
+                "PreferredLogistics": "boat"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.0,
+                    12.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 24",
+                "StateProvince": "NI",
+                "PreferredLogistics": "boat"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.0,
+                    12.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 38",
+                "StateProvince": "NI",
+                "PreferredLogistics": "boat"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.0,
+                    12.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 56",
+                "StateProvince": "GT",
+                "PreferredLogistics": "boat"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.25,
+                    15.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 60",
+                "StateProvince": "NI",
+                "PreferredLogistics": "boat"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.0,
+                    12.5
+                ]
+            }
+        }
+    ]
+}

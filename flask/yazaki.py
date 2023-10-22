@@ -29,18 +29,15 @@ def preprocess_data(data_sheet):
     scaler = preprocessing.MinMaxScaler()
     array = np.array(data_sheet['Availability'])
     d = scaler.fit_transform(array.reshape(-1,1))
-    print("normalized array: ", d)
     data_sheet['Availability'] = d
     country_name_and_region = data_sheet['ManufacturingRegion'].values + " " + data_sheet['CountryName'].values
-    print(country_name_and_region)
     country_name_dict = dict()
     for n in country_name_and_region:
         if n not in country_name_dict:
             country_name_dict.update({n: 0})
         country_name_dict[n] += 1
-    print(country_name_dict)
     test = data_sheet['StateProvince'].str.lower().values.tolist()
-    print(convert_abbreviations(test))
+    convert_abbreviations(test)
     data_sheet['StateProvince'] = test
     data_sheet.to_excel("output.xlsx")
     convert_to_geojson()
@@ -209,7 +206,7 @@ def convert_to_geojson():
     logistics_geojson = {  "type": "FeatureCollection",
             "features": []
     }
-    
+
     with pd.ExcelFile("output.xlsx") as xls:
         for sheet_name in xls.sheet_names:
             df = xls.parse(sheet_name)

@@ -5,30 +5,22 @@ html {
   height: 100%;
 }
 
-.navbar {
-  background-color: #333;
-  color: white;
-  height: 50px;
-  padding: 10px;
+.navbar{
+  margin-left: 300px;
 }
 
-.sidebar {
-  background-color: #444;
-  color: white;
-  width: 250px;
-  height: 100%;
-  position: fixed;
-  top: 50px;
-  left: 0;
-  overflow-y: auto;
-}
+
 
 #map {
   position: absolute;
-  top: 50px;
-  left: 250px;
+  top: 56px;
+  left: 0;
   right: 0;
   bottom: 0;
+  border: 2px solid black; /* Add a black border around the map */
+  background-color: #000000; /* Set the background color to black */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a slight shadow for visual depth */
+  border-radius: 10px 0 0 0; /* Only round the upper left corner */
 }
 
 

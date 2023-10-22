@@ -1,4 +1,5 @@
 import os
+import sys
 from flask import Flask, flash, request, redirect, url_for
 from werkzeug.utils import secure_filename
 
@@ -14,6 +15,7 @@ def allowed_file(filename):
 
 @app.route('/', methods=['GET', 'POST'])
 def upload_file():
+    print("hi", file=sys.stderr)
     if request.method == 'POST':
         # check if the post request has the file part
         if 'file' not in request.files:

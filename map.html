@@ -43,25 +43,41 @@
 
     
 
-    <ul class="nav nav-pills flex-sm-column">
       <h2>Filters</h2>
+    
+      <ul class="nav nav-pills flex-lg-column">
+        
+        <div class="dropdown">
+          <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Logistics
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Road</a></li>
+            <li><a class="dropdown-item" href="#">Boat</a></li>
+            <li><a class="dropdown-item" href="#">Plane</a></li>
+            <li><a class="dropdown-item" href="#">Train</a></li>
+          </ul>
+        </div>
+      </ul>
+      <br>
+      <button type="button" class="btn btn-primary btn-lg">Plant Availability</button>
+      <br>
+      <button type="button" class="btn btn-primary btn-lg">Plant Capabilities</button>
       <div class="dropdown">
         <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Logistics
+          Country
         </button>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Road</a></li>
-          <li><a class="dropdown-item" href="#">Boat</a></li>
-          <li><a class="dropdown-item" href="#">Plane</a></li>
-          <li><a class="dropdown-item" href="#">Train</a></li>
+          <li><a class="dropdown-item" href="#">Mexico</a></li>
+          <li><a class="dropdown-item" href="#">United States</a></li>
+          <li><a class="dropdown-item" href="#">Nicaragua</a></li>
+          <li><a class="dropdown-item" href="#">Nicaragua</a></li>
         </ul>
       </div>
-    </ul>
-
-    <button type="button" class="btn btn-primary btn-lg">Plant Availability.</button>
-
-    
-
+  
+  
+    </div>
+      
     <div id="map"></div>
     <script>
       mapboxgl.accessToken =

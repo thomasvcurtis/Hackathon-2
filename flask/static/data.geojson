@@ -1,0 +1,1247 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 1",
+                "StateProvince": "MX-DUR",
+                "ManufacturingRegion": "Central",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road",
+                "Availability": 0.3980159994820955
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.83333,
+                    -104.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 2",
+                "StateProvince": "MX-CHH",
+                "ManufacturingRegion": "North 2",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "plane",
+                "Availability": 0.3345742886150199
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 3",
+                "StateProvince": "MX-NLE",
+                "ManufacturingRegion": "Northeast",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.2711325777479442
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.58333,
+                    -99.75
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 4",
+                "StateProvince": "MX-DUR",
+                "ManufacturingRegion": "Central",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.2076908668808687
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.83333,
+                    -104.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 5",
+                "StateProvince": "MX-CHP",
+                "ManufacturingRegion": "Southeast",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "plane",
+                "Availability": 0.6833304224907331
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 6",
+                "StateProvince": "MX-CHH",
+                "ManufacturingRegion": "North 1",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.5695786026706613
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 7",
+                "StateProvince": "MX-COA",
+                "ManufacturingRegion": "Northeast",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road",
+                "Availability": 0.561249781711856
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.33333,
+                    -102.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 8",
+                "StateProvince": "MX-DUR",
+                "ManufacturingRegion": "Northeast",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "plane",
+                "Availability": 0.4686020381722826
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.83333,
+                    -104.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 9",
+                "StateProvince": "MX-NLE",
+                "ManufacturingRegion": "Northeast",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.3759542946327094
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.58333,
+                    -99.75
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 10",
+                "StateProvince": "MX-SON",
+                "ManufacturingRegion": "Northwest",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road",
+                "Availability": 0.307398775271062
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.66667,
+                    -110.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 11",
+                "StateProvince": "MX-SLP",
+                "ManufacturingRegion": "Northeast",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "plane",
+                "Availability": 0.3976402183881921
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.5,
+                    -100.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 12",
+                "StateProvince": "MX-CHP",
+                "ManufacturingRegion": "Southeast",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "plane",
+                "Availability": 0.3139429645622738
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 13",
+                "StateProvince": "MX",
+                "ManufacturingRegion": "Southeast",
+                "CountryName": "United States",
+                "PreferredLogistics": "plane",
+                "Availability": 0.3215289490572392
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.0,
+                    -102.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 14",
+                "StateProvince": "MX-CHP",
+                "ManufacturingRegion": "Southeast",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "plane",
+                "Availability": 0.3291149335522046
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 15",
+                "StateProvince": "MX-CHH",
+                "ManufacturingRegion": "North 2",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.33670091804717
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 16",
+                "StateProvince": "NI",
+                "ManufacturingRegion": "NI",
+                "CountryName": "Nicaragua",
+                "PreferredLogistics": "boat",
+                "Availability": 0.3442869025421353
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.5,
+                    -85.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 17",
+                "StateProvince": "MX-DUR",
+                "ManufacturingRegion": "Central",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "plane",
+                "Availability": 0.3378795896596953
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.83333,
+                    -104.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 18",
+                "StateProvince": "MX-CHH",
+                "ManufacturingRegion": "North 2",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.3314722767772551
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 19",
+                "StateProvince": "MX-DUR",
+                "ManufacturingRegion": "Central",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road",
+                "Availability": 0.3250649638948149
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.83333,
+                    -104.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 20",
+                "StateProvince": "NI",
+                "ManufacturingRegion": "NI",
+                "CountryName": "Nicaragua",
+                "PreferredLogistics": "boat",
+                "Availability": 0.582408957312281
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.5,
+                    -85.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 21",
+                "StateProvince": "MX-GUA",
+                "ManufacturingRegion": "Bajio",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road",
+                "Availability": 0.415987500087951
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.0,
+                    -101.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 22",
+                "StateProvince": "US-CA",
+                "ManufacturingRegion": "US",
+                "CountryName": "El Salvador",
+                "PreferredLogistics": "road",
+                "Availability": 0.2495660428636215
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.5,
+                    -119.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 23",
+                "StateProvince": "MX-CHH",
+                "ManufacturingRegion": "North 1",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "plane",
+                "Availability": 0.2245655784191658
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 24",
+                "StateProvince": "NI",
+                "ManufacturingRegion": "NI",
+                "CountryName": "Nicaragua",
+                "PreferredLogistics": "boat",
+                "Availability": 0.6457382057788409
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.5,
+                    -85.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 25",
+                "StateProvince": "MX-CHH",
+                "ManufacturingRegion": "North 2",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road",
+                "Availability": 0.577215100233884
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 26",
+                "StateProvince": "MX-CHP",
+                "ManufacturingRegion": "Southeast",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "plane",
+                "Availability": 0.508691994688927
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 27",
+                "StateProvince": "MX-JAL",
+                "ManufacturingRegion": "Southwest",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.4325911670065382
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.33333,
+                    -103.66667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 28",
+                "StateProvince": "MX-CHH",
+                "ManufacturingRegion": "North 2",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.3564903393241495
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 29",
+                "StateProvince": "US-MI",
+                "ManufacturingRegion": "US",
+                "CountryName": "United States",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.3647533411873623
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.0,
+                    -85.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 30",
+                "StateProvince": "MX-CHH",
+                "ManufacturingRegion": "COMBU",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.3730163430505752
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 31",
+                "StateProvince": "MX-CHP",
+                "ManufacturingRegion": "Southeast",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.381279344913788
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 32",
+                "StateProvince": "MX-SON",
+                "ManufacturingRegion": "North 1",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.4086573227831409
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.66667,
+                    -110.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 33",
+                "StateProvince": "MX-SLP",
+                "ManufacturingRegion": "Northeast",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.3297282309206699
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.5,
+                    -100.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 34",
+                "StateProvince": "MX-DUR",
+                "ManufacturingRegion": "Northeast",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.2198188206137799
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.83333,
+                    -104.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 35",
+                "StateProvince": "MX-DUR",
+                "ManufacturingRegion": "COMBU",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.1099094103068901
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.83333,
+                    -104.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 36",
+                "StateProvince": "MX-COA",
+                "ManufacturingRegion": "La Laguna ",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.33333,
+                    -102.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 37",
+                "StateProvince": "MX-SON",
+                "ManufacturingRegion": "Juarez",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road",
+                "Availability": 0.08973704570793312
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.66667,
+                    -110.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 38",
+                "StateProvince": "NI",
+                "ManufacturingRegion": "NI",
+                "CountryName": "Nicaragua",
+                "PreferredLogistics": "boat",
+                "Availability": 0.1794740914158662
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.5,
+                    -85.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 39",
+                "StateProvince": "MX-CHH",
+                "ManufacturingRegion": "North 1",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.2692111371237993
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 40",
+                "StateProvince": "MX-DUR",
+                "ManufacturingRegion": "Central",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road",
+                "Availability": 0.3589481828317325
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.83333,
+                    -104.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 41",
+                "StateProvince": "MX-CHH",
+                "ManufacturingRegion": "North 1",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.1178779492572299
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 42",
+                "StateProvince": "MX-SLP",
+                "ManufacturingRegion": "Northeast",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.3145917577712041
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.5,
+                    -100.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 43",
+                "StateProvince": "MX-NLE",
+                "ManufacturingRegion": "Northeast",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road",
+                "Availability": 0.341536537509881
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.58333,
+                    -99.75
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 44",
+                "StateProvince": "MX-SON",
+                "ManufacturingRegion": "Northwest",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "plane",
+                "Availability": 0.3684813172485579
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.66667,
+                    -110.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 45",
+                "StateProvince": "MX-COL",
+                "ManufacturingRegion": "Southwest",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "plane",
+                "Availability": 0.4126944916892899
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0,
+                    -103.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 46",
+                "StateProvince": "MX-NLE",
+                "ManufacturingRegion": "Northeast",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "plane",
+                "Availability": 0.3757012923922927
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.58333,
+                    -99.75
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 47",
+                "StateProvince": "MX-DUR",
+                "ManufacturingRegion": "Central",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "plane",
+                "Availability": 0.3387080930952956
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.83333,
+                    -104.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 48",
+                "StateProvince": "MX-CHH",
+                "ManufacturingRegion": "North 2",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.3017148937982985
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 49",
+                "StateProvince": "MX-SON",
+                "ManufacturingRegion": "Northwest",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road",
+                "Availability": 0.2647216945013013
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.66667,
+                    -110.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 50",
+                "StateProvince": "MX-DUR",
+                "ManufacturingRegion": "COMBU",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.501622279725356
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.83333,
+                    -104.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 51",
+                "StateProvince": "NI",
+                "ManufacturingRegion": "NI",
+                "CountryName": "Nicaragua",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.7385228649494108
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.5,
+                    -85.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 52",
+                "StateProvince": "MX-SON",
+                "ManufacturingRegion": "Northwest",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.3172128342413302
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.66667,
+                    -110.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 53",
+                "StateProvince": "MX-SLP",
+                "ManufacturingRegion": "Northeast",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.3988474462891214
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.5,
+                    -100.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 54",
+                "StateProvince": "MX-CHP",
+                "ManufacturingRegion": "Southeast 2",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.258618890394113
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 55",
+                "StateProvince": "MX-DUR",
+                "ManufacturingRegion": "Northwest",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road",
+                "Availability": 0.1183903344991045
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.83333,
+                    -104.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 56",
+                "StateProvince": "GT",
+                "ManufacturingRegion": "US",
+                "CountryName": "Guatemala",
+                "PreferredLogistics": "boat",
+                "Availability": 0.6160494539683418
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5,
+                    -90.25
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 57",
+                "StateProvince": "MX-CHH",
+                "ManufacturingRegion": "North 2",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.5732398077714058
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 58",
+                "StateProvince": "MX-COL",
+                "ManufacturingRegion": "Southwest",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road",
+                "Availability": 0.5304301615744701
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0,
+                    -103.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 59",
+                "StateProvince": "MX-CHH",
+                "ManufacturingRegion": "North 1",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road",
+                "Availability": 0.3720650994393592
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 60",
+                "StateProvince": "NI",
+                "ManufacturingRegion": "NI",
+                "CountryName": "Nicaragua",
+                "PreferredLogistics": "boat",
+                "Availability": 1.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.5,
+                    -85.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 61",
+                "StateProvince": "MX-DUR",
+                "ManufacturingRegion": "Central",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road",
+                "Availability": 0.3356619100802946
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.83333,
+                    -104.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 62",
+                "StateProvince": "MX-DUR",
+                "ManufacturingRegion": "Northeast",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "plane",
+                "Availability": 0.3494415243584969
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.83333,
+                    -104.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 63",
+                "StateProvince": "MX-CHH",
+                "ManufacturingRegion": "North 2",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.3632211386366992
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 64",
+                "StateProvince": "MX-CHH",
+                "ManufacturingRegion": "North 1",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road",
+                "Availability": 0.3770007529149015
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 65",
+                "StateProvince": "MX-DUR",
+                "ManufacturingRegion": "Northwest",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.8070920967562862
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.83333,
+                    -104.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 66",
+                "StateProvince": "US-TN",
+                "ManufacturingRegion": "US",
+                "CountryName": "United States",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.6327110842678076
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.83333,
+                    -86.33333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 67",
+                "StateProvince": "MX-CHH",
+                "ManufacturingRegion": "North 2",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road",
+                "Availability": 0.4583300717793291
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 68",
+                "StateProvince": "MX-CHP",
+                "ManufacturingRegion": "Southeast 2",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.5602418894417402
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "PlantName": "Plant 69",
+                "StateProvince": "MX-CHH",
+                "ManufacturingRegion": "North 2",
+                "CountryName": "Mexico",
+                "PreferredLogistics": "road/plane",
+                "Availability": 0.5602418894417402
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.5,
+                    -92.5
+                ]
+            }
+        }
+    ]
+}

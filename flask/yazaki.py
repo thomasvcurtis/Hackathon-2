@@ -2,6 +2,7 @@ from flask import Flask
 import pandas as pd
 import numpy as np
 from sklearn import preprocessing
+import json
 
 
 app = Flask(__name__)
@@ -29,6 +30,7 @@ def preprocess_data(data_sheet):
     array = np.array(data_sheet['Availability'])
     d = scaler.fit_transform(array.reshape(-1,1))
     print("normalized array: ", d)
+    data_sheet['Availability'] = d
     country_name_and_region = data_sheet['ManufacturingRegion'].values + " " + data_sheet['CountryName'].values
     print(country_name_and_region)
     country_name_dict = dict()
@@ -39,9 +41,14 @@ def preprocess_data(data_sheet):
     print(country_name_dict)
     test = data_sheet['StateProvince'].str.lower().values.tolist()
     print(convert_abbreviations(test))
+    data_sheet['StateProvince'] = test
+    data_sheet.to_excel("output.xlsx")
+    convert_to_geojson()
+
     return data_sheet
 
 def convert_abbreviations(array):
+    # Abbreviations for MapBox API
     ABBREVIATIONS = {'chihuahua' : 'MX-CHH', 'chi' : 'MX-CHH', 'durango' : 'MX-DUR', 'dgo' : 'MX-DUR', 'nuevo leon' : 'MX-NLE', 
                      'chiapas' : 'MX-CHP', 'chs' : 'MX-CHP', 'sonora' : 'MX-SON', 'son' : 'MX-SON', 'san luis potosi' : 'MX-SLP', 
                      'jalisco' : 'MX-JAL', 'coahuila' : 'MX-COA', 'coa' : 'MX-COA', 'colima' : 'MX-COL', 'col' : 'MX-COL', 
@@ -54,4 +61,45 @@ def convert_abbreviations(array):
         if array[i] in ABBREVIATIONS:
             array[i] = ABBREVIATIONS[array[i]]
     return array
+
+def convert_to_geojson():
+    geojson = {  "type": "FeatureCollection",
+                "crs" : {
+                "type" : "name",
+                 "properties" : {
+                "name" : "urn:ogc:def:crs:OGC:1.3:CRS84"
+            }},
+            "features": []
+    }
+    with pd.ExcelFile("output.xlsx") as xls:
+        for sheet_name in xls.sheet_names:
+            df = xls.parse(sheet_name)
+            df = df.drop('Unnamed: 0', axis=1)
+            for index, row in df.iterrows():
+                # Create a dictionary for each rows
+                row_dict = {
+                    "type" : "Feature",
+                    "properties" : {
+
+                    },
+                    "geometry" : {
+
+                    }
+                }
+                row_dict["properties"] = row.to_dict()
+                temp = {
+                    "type" : "Point",
+                    "coordinates" : [
+
+                    ]
+                }
+                row_dict["geometry"] = temp
+                geojson["features"].append(row_dict)
+
+    json_data = json.dumps(geojson, indent=4)
+
+    output_filename = 'data.geojson'
+    with open(output_filename, 'w') as output_file:
+        output_file.write('{}'.format(json_data))
+    
     

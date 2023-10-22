@@ -4,6 +4,9 @@
 # Data files provided to us
 *.xlsx
 
+# Data files generated
+*.geojson
+
 ### Flask ###
 instance/*
 !instance/.gitignore

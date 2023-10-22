@@ -63,7 +63,8 @@ def convert_abbreviations(array):
     return array
 
 def convert_to_geojson():
-    geojson = {  "type": "FeatureCollection",
+    # Create availability geojson
+    availability_geojson = {  "type": "FeatureCollection",
             "features": []
     }
     with pd.ExcelFile("output.xlsx") as xls:
@@ -87,12 +88,158 @@ def convert_to_geojson():
                     "coordinates" : constants.COORD_DICT[row_dict["properties"]["StateProvince"]]
                 }
                 row_dict["geometry"] = temp
-                geojson["features"].append(row_dict)
+                availability_geojson["features"].append(row_dict)
 
-    json_data = json.dumps(geojson, indent=4)
+    json_data = json.dumps(availability_geojson, indent=4)
 
-    output_filename = 'static/data.geojson'
-    with open(output_filename, 'w') as output_file:
+    output_availability = 'static/availability.geojson'
+    with open(output_availability, 'w') as output_file:
         output_file.write('{}'.format(json_data))
     
+    # Create logistics geojson
+    logistics_geojson = {  "type": "FeatureCollection",
+            "features": []
+    }
+    with pd.ExcelFile("output.xlsx") as xls:
+        for sheet_name in xls.sheet_names:
+            df = xls.parse(sheet_name)
+            df = df.drop('Unnamed: 0', axis=1)
+            df = df.drop("ManufacturingRegion", axis=1)
+            df = df.drop("CountryName", axis=1)
+            df = df.drop("Availability", axis=1)
+            for index, row in df.iterrows():
+                # Create a dictionary for each rows
+                if row["PreferredLogistics"].find("road") != -1:
+                    row_dict = {
+                        "type" : "Feature",
+                        "properties" : {
+
+                        },
+                        "geometry" : {
+
+                        }
+                    }
+                    row_dict["properties"] = row.to_dict()
+                    temp = {
+                        "type" : "Point",
+                        "coordinates" : constants.COORD_DICT[row_dict["properties"]["StateProvince"]]
+                    }
+                    row_dict["geometry"] = temp
+                    logistics_geojson["features"].append(row_dict)
+
+    json_data = json.dumps(logistics_geojson, indent=4)
+
+    output_logistics = "static/road_logistics.geojson"
+    with open(output_logistics, "w") as file:
+        file.write(json_data)
+
+    logistics_geojson = {  "type": "FeatureCollection",
+            "features": []
+    }
+
+    with pd.ExcelFile("output.xlsx") as xls:
+        for sheet_name in xls.sheet_names:
+            df = xls.parse(sheet_name)
+            df = df.drop('Unnamed: 0', axis=1)
+            df = df.drop("ManufacturingRegion", axis=1)
+            df = df.drop("CountryName", axis=1)
+            df = df.drop("Availability", axis=1)
+            for index, row in df.iterrows():
+                # Create a dictionary for each rows
+                if row["PreferredLogistics"].find("plane") != -1:
+                    row_dict = {
+                        "type" : "Feature",
+                        "properties" : {
+
+                        },
+                        "geometry" : {
+
+                        }
+                    }
+                    row_dict["properties"] = row.to_dict()
+                    temp = {
+                        "type" : "Point",
+                        "coordinates" : constants.COORD_DICT[row_dict["properties"]["StateProvince"]]
+                    }
+                    row_dict["geometry"] = temp
+                    logistics_geojson["features"].append(row_dict)
+
+    json_data = json.dumps(logistics_geojson, indent=4)
+
+    output_filename = 'static/plane_logistics.geojson'
+    with open(output_filename, 'w') as output_file:
+        output_file.write('{}'.format(json_data))
+
+    logistics_geojson = {  "type": "FeatureCollection",
+            "features": []
+    }
+    with pd.ExcelFile("output.xlsx") as xls:
+        for sheet_name in xls.sheet_names:
+            df = xls.parse(sheet_name)
+            df = df.drop('Unnamed: 0', axis=1)
+            df = df.drop("ManufacturingRegion", axis=1)
+            df = df.drop("CountryName", axis=1)
+            df = df.drop("Availability", axis=1)
+            for index, row in df.iterrows():
+                # Create a dictionary for each rows
+                if row["PreferredLogistics"].find("train") != -1:
+                    row_dict = {
+                        "type" : "Feature",
+                        "properties" : {
+
+                        },
+                        "geometry" : {
+
+                        }
+                    }
+                    row_dict["properties"] = row.to_dict()
+                    temp = {
+                        "type" : "Point",
+                        "coordinates" : constants.COORD_DICT[row_dict["properties"]["StateProvince"]]
+                    }
+                    row_dict["geometry"] = temp
+                    logistics_geojson["features"].append(row_dict)
+
+    json_data = json.dumps(logistics_geojson, indent=4)
+
+    output_filename = 'static/train_logistics.geojson'
+    with open(output_filename, 'w') as output_file:
+        output_file.write('{}'.format(json_data))
+
+    logistics_geojson = {  "type": "FeatureCollection",
+            "features": []
+    }
+    
+    with pd.ExcelFile("output.xlsx") as xls:
+        for sheet_name in xls.sheet_names:
+            df = xls.parse(sheet_name)
+            df = df.drop('Unnamed: 0', axis=1)
+            df = df.drop("ManufacturingRegion", axis=1)
+            df = df.drop("CountryName", axis=1)
+            df = df.drop("Availability", axis=1)
+            for index, row in df.iterrows():
+                # Create a dictionary for each rows
+                if row["PreferredLogistics"].find("boat") != -1:
+                    row_dict = {
+                        "type" : "Feature",
+                        "properties" : {
+
+                        },
+                        "geometry" : {
+
+                        }
+                    }
+                    row_dict["properties"] = row.to_dict()
+                    temp = {
+                        "type" : "Point",
+                        "coordinates" : constants.COORD_DICT[row_dict["properties"]["StateProvince"]]
+                    }
+                    row_dict["geometry"] = temp
+                    logistics_geojson["features"].append(row_dict)
+
+    json_data = json.dumps(logistics_geojson, indent=4)
+
+    output_filename = 'static/boat_logistics.geojson'
+    with open(output_filename, 'w') as output_file:
+        output_file.write('{}'.format(json_data))
     

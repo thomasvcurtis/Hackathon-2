@@ -29,15 +29,15 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 35%;
 }
 
 body {
-    background-color: rgb(150, 247, 242);
+    background-color: rgb(250, 215, 215);
 }
 
 input[type="submit"] {
-    background-color: lightseagreen;
+    background-color: #e32115;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -50,10 +50,10 @@ input[type="submit"] {
 }
 
 input[type="file"]::file-selector-button {
-    border: 2px solid lightseagreen;
+    border: 2px solid #e32115;
     padding: 0.2em 0.4em;
     border-radius: 0.2em;
-    background-color: lightseagreen;
+    background-color: #e32115;
     transition: 1s;
     padding: 16px 32px;
     text-decoration: none;

@@ -28,5 +28,13 @@ def preprocess_data(data_sheet):
     array = np.array(data_sheet['Availability'])
     d = scaler.fit_transform(array.reshape(-1,1))
     print("normalized array: ", d)
+    country_name_and_region = data_sheet['ManufacturingRegion'].values + " " + data_sheet['CountryName'].values
+    print(country_name_and_region)
+    country_name_dict = dict()
+    for n in country_name_and_region:
+        if n not in country_name_dict:
+            country_name_dict.update({n: 0})
+        country_name_dict[n] += 1
+    print(country_name_dict)
     return data_sheet
     
